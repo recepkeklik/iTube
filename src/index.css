@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "iTube Font";   /*Can be any text*/
+    src: local("Inter"),
+      url("../public/fonts/Inter.ttf") format("truetype");
+  }
+
+
+#slider::-webkit-scrollbar{
+  display: none;
+}
+
+
+#forCategoryBorderAnimation{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #560D0D;
+  border-radius: 12px;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 24px;
+  background: repeating-conic-gradient(from var(--a),#DC2626 0%,#DC2626 5%,transparent 5%,transparent 40%,#DC2626 50%);
+  animation: animate 4s linear infinite;
+  z-index: 5;
+  margin-bottom: 10px;
+}
+
+@property --a{
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes animate{
+  0%{
+    --a: 0deg;
+  }
+  100%{
+    --a: 360deg;
+  }
+}
+
+#forCategoryBorderAnimation::before{
+  content:'';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: repeating-conic-gradient(from var(--a),#c40041 0%,#c40041 5%,transparent 5%,transparent 40%,#c40041 50%);
+  animation: animate 4s linear infinite;
+  animation-delay: 1s;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+#forCategoryBorderAnimation::after{
+  content:'';
+  position: absolute;
+  inset:3px;
+  background: #560D0D;
+  border-radius: 20px;
+  z-index: -1;
+}
