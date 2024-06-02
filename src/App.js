@@ -11,8 +11,8 @@ import SeriesScreen from "./components/SeriesPage/SeriesScreen";
 import ErrorScreen from "./ErrorScreen";
 import { AuthContextProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
-import Footer from "./Footer";
 import LandingVideo from "./components/LandingVideo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
