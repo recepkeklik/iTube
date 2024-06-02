@@ -16,7 +16,7 @@ const MovieCards = (props) => {
 
 
   return (
-    <div className="relative xl:w-[18%] lg:w-[21%]   md:w-[45%] rounded-xl flex justify-center items-center flex-col p-2 m-3 text-center  hover:scale-[1.01] duration-300">
+    <div className="relative xl:w-[18%] lg:w-[21%] md:w-[45%] rounded-xl flex justify-center items-center flex-col p-2 m-3 text-center  hover:scale-[1.01] duration-300">
       <div className="group bg-black rounded-xl">
         <img className="group-hover:opacity-[0.2] rounded-xl xl:h-[400px] lg:h-[300px] md:h-[500px]" src={props.img} />
         <div className="top-[33%] left-0 w-full rounded-[10px] text-white justify-center items-center hidden group-hover:flex absolute">

@@ -20,15 +20,23 @@ const SeriesData = [
                 { id: 2,img: "../images/GoTEpisodeImages/Season1Episode2.jpg",name:"The Kingsroad",timeDuration:"56m" },
                 { id: 3,img: "../images/GoTEpisodeImages/Season1Episode3.jpg",name:"Lord Snow",timeDuration:"58m" },
                 { id: 4,img: "../images/GoTEpisodeImages/Season1Episode4.jpg",name:"Cripples, Bastards, and Broken Things",timeDuration:"56m" },
+                { id: 5,img: "../images/GoTEpisodeImages/Season1Episode5.jpg",name:"The Wolf and the Lion",timeDuration:"55m" },
+                { id: 6,img: "../images/GoTEpisodeImages/Season1Episode6.jpg",name:"A Golden Crown",timeDuration:"53m" },
+                { id: 7,img: "../images/GoTEpisodeImages/Season1Episode7.jpg",name:"You Win or You Die",timeDuration:"58m" },
+                { id: 8,img: "../images/GoTEpisodeImages/Season1Episode8.jpg",name:"The Pointy End",timeDuration:"59m" },
+                { id: 9,img: "../images/GoTEpisodeImages/Season1Episode9.jpg",name:"Baelor",timeDuration:"57m" },
+                { id: 10,img: "../images/GoTEpisodeImages/Season1Episode10.jpg",name:"Fire and Blood",timeDuration:"53m" },
               ],
             },
             {
               id: 2,
               name: 'Season 2',
               episodes: [
+                { id: 1,img: "../images/GoTEpisodeImages/Season2Episode1.jpg",name:"The North Remembers",timeDuration:"53m" },
+                { id: 2,img: "../images/GoTEpisodeImages/Season2Episode2.jpg",name:"The Night Lands",timeDuration:"54m" },
+                { id: 3,img: "../images/GoTEpisodeImages/Season2Episode3.jpg",name:"What Is Dead May Never Die",timeDuration:"53m" },
                 { id: 4, name: 'Episode 4' },
                 { id: 5, name: 'Episode 5' },
-                { id: 6, name: 'Episode 6' },
               ],
             },
             {
@@ -105,6 +113,7 @@ const SeriesData = [
         isInWatchList:false,
         title:"Dexter",
     },
+    
 ]
 
 export default SeriesData

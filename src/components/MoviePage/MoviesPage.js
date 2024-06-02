@@ -28,7 +28,7 @@ const MoviesPage = () => {
 
   return (
     
-    <div className="w-full flex flex-col bg-gradient-to-t from-black/95 to-red-800 pb-20">
+    <div  className="w-full flex flex-col pb-20 bg-cover bg-center" >
         <div className="xl:flex lg:flex md:flex items-start flex-col justify-start">
             <div className='w-full flex justify-start px-[80px] mt-10'>
                 {isFilterOpen == true ? 

@@ -34,7 +34,7 @@ const SignUpPage = () => {
 
 
   return (
-    <div className="w-full h-screen flex bg-gradient-to-t from-black to-red-700 justify-start items-center flex-col font-[FrizQuadrataRegular]">
+    <div className="w-full h-screen flex justify-start items-center flex-col font-[FrizQuadrataRegular]">
         <form onSubmit={handleSubmit} className="flex justify-evenly bg-white items-center flex-col h-[40%] px-[5%] shadow-2xl shadow-transparent mt-52 rounded-xl">
           <h1 className="text-[50px] italic first-letter:text-red-400">iTube</h1>
           <div className="flex justify-center items-end flex-col">

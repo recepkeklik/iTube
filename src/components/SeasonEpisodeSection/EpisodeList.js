@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const EpisodeList = ({ episodes }) => {
   return (
-    <div className='mt-10 flex justify-around items-center flex-wrap text-white'>
+    <div className='mt-10 flex justify-start items-center flex-wrap text-white'>
         {episodes.map((episode) => (
             <Link className='xl:w-[22%] lg:w-[45%] md:w-[55%] m-6 flex flex-col justify-center items-center' key={episode.id}>
                 <img src={episode.img}/>

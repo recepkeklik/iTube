@@ -9,8 +9,8 @@ const SeriesPage = () => {
     })
 
   return (
-    <div className=''>
-        <div className='w-full flex flex-wrap justify-center items-center'>
+    <div className='mt-10'>
+        <div className='w-full flex flex-wrap justify-center items-center pb-5'>
             {newSeriesData}
         </div>
     </div>

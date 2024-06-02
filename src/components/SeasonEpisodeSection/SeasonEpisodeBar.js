@@ -10,6 +10,7 @@ const SeasonEpisodeBar = ({ seasons }) => {
         setSelectedSeason(season);
     };
 
+
   return (
     <div className='w-full'>
         <SeasonSelector seasons={seasons} onSeasonChange={handleSeasonChange} />

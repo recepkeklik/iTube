@@ -38,7 +38,7 @@ const LoginPage = () => {
 
 
   return (
-    <div className="w-full h-screen text-black bg-gradient-to-t from-black to-red-700 flex justify-start items-center flex-col font-[FrizQuadrataRegular]">
+    <div className="w-full h-screen text-black flex justify-start items-center flex-col font-[FrizQuadrataRegular]">
         <form onSubmit={handleSubmit} className="flex justify-evenly items-center bg-white flex-col h-[40%] px-[5%] shadow-2xl shadow-transparent mt-52 rounded-xl">
           <h1 className="text-[50px] italic first-letter:text-red-400">iTube</h1>
           <div className="flex justify-center items-end flex-col">
