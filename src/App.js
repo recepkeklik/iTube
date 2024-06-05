@@ -19,9 +19,9 @@ function App() {
     <div>
       <AuthContextProvider>
         <Header />
-        <LandingVideo />
         <Routes>
-          <Route path="/" element={<Main />}></Route>
+          <Route path="/" element={<LandingVideo />}></Route>
+          <Route path="Home" element={<Main />}></Route>
           <Route path="LoginPage" element={<LoginPage />}></Route>
           <Route path="SignUpPage" element={<SignUpPage />}></Route>
           <Route path="Account" element={<ProtectedRoute><Account /></ProtectedRoute>}></Route>

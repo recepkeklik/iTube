@@ -29,7 +29,7 @@ const Header = () => {
         <Link to="/" className="m-2"><img className='w-32' src="../iTube.png"/></Link>
         {user?.email ? 
         <select className="w-[18%] cursor-pointer py-2.5 px-0 text-center text-md text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-white dark:border-white focus:outline-none focus:ring-0 focus:border-gray-200 peer" onChange={event => handleChange(event.target.value)}>
-          <option style={{}} className="bg-black cursor-pointer" value="/">Home</option>
+          <option style={{}} className="bg-black cursor-pointer" value="Home">Home</option>
           <option style={{}} className="bg-black cursor-pointer" value="Movies">Movies</option>
           <option style={{}} className="bg-black cursor-pointer" value="Series">Series</option>
         </select> : 

@@ -1,17 +1,21 @@
 import React from 'react'
-import { useState,useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const LandingVideo = () => {
+
+  const navigate = useNavigate()
 
     const [showVideo, setShowVideo] = React.useState(true);
 
     React.useEffect(() => {
         const timer = setTimeout(() => {
           setShowVideo(false);
-        }, 10);
-    
+          navigate("/Home")
+        }, 10000);
         return () => clearTimeout(timer);
       }, []);
+
+      
 
   return (
     showVideo && (
